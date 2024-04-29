@@ -37,7 +37,8 @@ void ShoppingCart::ModifyItem(ItemToPurchase item) {
                       [&item](const ItemToPurchase& cartItem) {
                           return cartItem.GetName() == item.GetName();
                       });
-if (it != cartItems.end()) {
+
+    if (it != cartItems.end()) {
         if (!item.GetDescription().empty()) it->SetDescription(item.GetDescription());
         if (item.GetPrice() != 0) it->SetPrice(item.GetPrice());
         if (item.GetQuantity() != 0) it->SetQuantity(item.GetQuantity());
