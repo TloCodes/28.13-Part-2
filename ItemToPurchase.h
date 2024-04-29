@@ -19,3 +19,16 @@ public:
     int GetPrice() const;
     int GetQuantity() const;
 
+void PrintItemCost() const;
+    void PrintItemDescription() const;
+
+private:
+    string itemName;
+    string itemDescription;
+    int itemPrice;
+    int itemQuantity;
+};
+
+#endif
+
+
