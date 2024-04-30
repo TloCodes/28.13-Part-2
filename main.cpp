@@ -1,4 +1,5 @@
-//git respsitory link
+https://github.com/TloCodes/28.13-Part-2
+
 Travis Pryor
 Christy Marunza
 
